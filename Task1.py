@@ -7,8 +7,8 @@ def unique(e):
 
 #This function should return transposed dict d. It is garantueed that all the values of dict d are distinct.
 def transposeDict(d):
-  transposed_dict = {key: value for (value, key) in d.items()}
-  print(transposed_dict)
+  return {key: value for (value, key) in d.items()}
+
 
 
 #This function should return minimal positive integer which is not present at list e.

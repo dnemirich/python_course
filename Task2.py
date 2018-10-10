@@ -49,7 +49,7 @@ def goodPairs(a, b):
             if (i * j) % (i + j) == 0:
                 s = i ** 2 + j ** 2
                 s2.append(s)
-    return sorted(s2)
+    return sorted(list(set(s2)))
 
 
 """ Returns list a of some zeros"""

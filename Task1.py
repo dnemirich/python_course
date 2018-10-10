@@ -26,7 +26,8 @@ def mex(e):
 from string s"""
 
 
-frequencyDict = lambda s: {el: s.count(el) for el in s}
+def frequencyDict(s):
+    return {el: s.count(el) for el in s}
 
 
 if __name__ == '__main__':

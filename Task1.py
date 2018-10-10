@@ -27,7 +27,7 @@ from string s"""
 
 
 def frequencyDict(s):
-    return {el: s.count(el) for el in s}
+    return {el: s.count(el) for el in set(s)}
 
 
 if __name__ == '__main__':

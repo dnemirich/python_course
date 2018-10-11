@@ -35,13 +35,13 @@ if __name__ == '__main__':
     assert unique({5, 1, 3}) == [1, 3, 5]
     assert unique('adsfasdf') == ['a', 'd', 'f', 's']
 
-    assert transposeDict({1: 'a', 2: 'b'}) = {'a': 1, 'b': 2}
-    assert transposeDict({1: 1}) = {1: 1}
-    assert transposeDict({}) = {}
+    assert transposeDict({1: 'a', 2: 'b'}) == {'a': 1, 'b': 2}
+    assert transposeDict({1: 1}) == {1: 1}
+    assert transposeDict({}) == {}
 
-    assert mex([1, 2, 3]) = 4
-    assert mex(['asdf', 123]) = 1
-    assert mex([0, 0, 1, 0]) = 2
+    assert mex([1, 2, 3]) == 4
+    assert mex(['asdf', 123]) == 1
+    assert mex([0, 0, 1, 0]) == 2
 
-    assert frequencyDict('') = {}
-    assert frequencyDict('abacaba') = {'a': 4, 'b': 2, 'c': 1}
+    assert frequencyDict('') == {}
+    assert frequencyDict('abacaba') == {'a': 4, 'b': 2, 'c': 1}
